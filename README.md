@@ -1,2 +1,2 @@
 # DigitalClock
-Indefinite Digital Clock
+Indefinite Digital Clock.
