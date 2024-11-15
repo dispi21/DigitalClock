@@ -1,4 +1,4 @@
-/* General resets and global styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-/* Background and main container */
+
 body {
   width: 100%;
   height: 100vh;
@@ -27,11 +27,11 @@ body {
   height: 100vh;
 }
 
-/* Styles for the clock container */
+
 .clock-container {
   display: flex;
   justify-content: center;
-  margin-top: 50px; /* Space from the top */
+  margin-top: 50px; 
 }
 
 .container {
@@ -86,15 +86,15 @@ body {
   transform: translateX(-50%);
 }
 
-/* Styles for the circles */
+
 .circle-section {
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 50%; /* Center the circles vertically */
-  left: 50%; /* Center the circles horizontally */
-  transform: translate(-50%, -50%); /* Perfect centering */
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .circle-section .container {
@@ -107,7 +107,7 @@ body {
   position: relative;
   width: 150px;
   height: 150px;
-  margin: 0 10px; /* Add space between the two circles */
+  margin: 0 10px; 
 }
 
 .circle-section .container .circle span {
