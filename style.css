@@ -44,7 +44,7 @@ body {
 .clock {
   width: 250%;
   height: 200px;
-  background: rgb(235, 0, 255, 0.11);
+/*   background: rgb(235, 0, 255, 0.11);  */
   border-radius: 69px;
   display: flex;
   align-items: center;
